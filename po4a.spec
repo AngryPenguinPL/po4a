@@ -18,6 +18,7 @@ BuildRequires:	perl-devel
 BuildRequires:	xsltproc docbook-style-xsl
 BuildRequires:	gettext
 BuildRequires:  perl(YAML::Tiny)
+BuildRequires:  opensp-devel
 
 Requires:	gettext
 BuildArch:	noarch
