@@ -17,6 +17,8 @@ BuildRequires:	perl(Unicode::GCString)
 BuildRequires:	perl-devel
 BuildRequires:	xsltproc docbook-style-xsl
 BuildRequires:	gettext
+BuildRequires:  perl(YAML::Tiny)
+
 Requires:	gettext
 BuildArch:	noarch
 
