@@ -33,7 +33,7 @@ perl Build.PL installdirs=vendor
 ./Build
 
 %install
-./Build install destdir=%{buildroot}
+perl ./Build install destdir=%{buildroot}
 
 %find_lang %{name} --with-man --all-name
 
