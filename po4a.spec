@@ -33,7 +33,7 @@ tools on areas where they were not expected like documentation.
 %setup -q
 
 %build
-perl Build.PL installdirs=vendor
+perl Build.PL
 ./Build
 
 %install
